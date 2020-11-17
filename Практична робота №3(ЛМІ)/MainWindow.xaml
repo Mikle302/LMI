@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfAppLMI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLMI"
+        mc:Ignorable="d"
+        Title="Abiturient" Height="350" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,30,0,0" Text="Abiturient info" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,79,0,0" Text="Enter the UA ZNO mark:" TextWrapping="Wrap" VerticalAlignment="Top" Width="131"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,100,0,0" Text="Enter the Maths ZNO mark:" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,130,0,0" Text="Enter the avg 9/11-class study mark:" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,170,0,0" Text="Enter the name of your school:" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <TextBox x:Name="___ZNO1_" HorizontalAlignment="Left" Margin="280,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" UndoLimit="5" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="___ZNO2_" HorizontalAlignment="Left" Margin="280,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" UndoLimit="5"/>
+        <TextBox x:Name="___Study_" HorizontalAlignment="Left" Margin="280,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" UndoLimit="5"/>
+        <TextBox x:Name="___School_" HorizontalAlignment="Left" Margin="280,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="394"/>
+        <Button Content="Send" HorizontalAlignment="Center" Margin="0,228,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+
+    </Grid>
+</Window>
